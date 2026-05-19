@@ -18,7 +18,6 @@
   </a>
   <ul class="nav-links">
     <li><a href="index.html#nosotros">Nosotros</a></li>
-    <li><a href="soluciones.html">Soluciones</a></li>
     <li><a href="sostenibilidad.html">Sostenibilidad</a></li>
     <li><a href="blog.html">Blog</a></li>
     <li><a href="trabaja.html" class="nav-active">Trabajá con nosotros</a></li>
@@ -34,6 +33,55 @@
   </div>
 </div>
 
+<!-- EMPLEOS -->
+<section class="empleos" id="empleos">
+  <div class="empleos-inner">
+    <div class="empleos-info">
+      <span class="section-label">Empleos</span>
+      <h2>Aprendé trabajando. Crecé con nosotros.</h2>
+      <p>En Arbusta profesionalizamos talento joven mientras construimos la IA del futuro. Si querés ser parte, dejanos tu CV.</p>
+      <p>Operamos en Argentina, Colombia y toda LATAM. El trabajo es remoto, flexible y orientado a resultados.</p>
+      <div class="empleos-pillars">
+        <div class="empleos-pillar"><span class="ep-icon">🎯</span><div class="ep-body"><h4>Proyectos reales desde el día 1</h4><p>Cada tarea es una oportunidad de aprendizaje en empresas líderes.</p></div></div>
+        <div class="empleos-pillar"><span class="ep-icon">🚀</span><div class="ep-body"><h4>Carrera en tecnología e IA</h4><p>Desarrollás habilidades en datos, anotación y operaciones.</p></div></div>
+        <div class="empleos-pillar"><span class="ep-icon">🤝</span><div class="ep-body"><h4>Cultura de equipo</h4><p>Comunidad, mentoreo y acompañamiento constante.</p></div></div>
+      </div>
+    </div>
+    <div class="empleos-form-box">
+      <h3>Dejanos tu CV</h3>
+      <p class="form-sub">Completá el formulario y un recruiter del equipo Arbusta se va a comunicar con vos.</p>
+      <form class="eform" id="e-form" action="https://formspree.io/f/xrejwpoy" method="POST">
+        <input type="hidden" name="_replyto" value="mariana.ricciardi@arbusta.net">
+        <input type="hidden" name="_subject" value="Nueva postulación — Empleos Arbusta">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div class="fg"><label>Nombre *</label><input type="text" name="nombre" placeholder="Tu nombre" required></div>
+          <div class="fg"><label>Apellido *</label><input type="text" name="apellido" placeholder="Tu apellido" required></div>
+        </div>
+        <div class="fg"><label>Email *</label><input type="email" name="email" placeholder="correo@mail.com" required></div>
+        <div class="fg">
+          <label>País</label>
+          <select name="pais"><option value="" disabled selected>Seleccioná tu país</option><option>Argentina</option><option>Colombia</option><option>México</option><option>Chile</option><option>Perú</option><option>Uruguay</option><option>Otro</option></select>
+        </div>
+        <div class="fg">
+          <label>Área de interés</label>
+          <select name="area"><option value="" disabled selected>Seleccioná un área</option><option>Evals &amp; AI Training</option><option>Market Intelligence</option><option>Validation &amp; Risk Management</option><option>CX Support</option><option>No sé todavía</option></select>
+        </div>
+        <div class="fg">
+          <label>Link CV / LinkedIn</label>
+          <input type="url" name="cv_link" placeholder="https://linkedin.com/in/...">
+          <span class="form-hint">&gt; También podés pegar un link de Google Drive, Notion, etc.</span>
+        </div>
+        <div class="fg"><label>Contanos sobre vos</label><textarea name="nota" placeholder="Contanos sobre vos, experiencias, motivaciones..."></textarea></div>
+        <button type="submit" class="btn-submit-emp" id="e-btn"><span class="btext">Enviar mi CV →</span></button>
+      </form>
+      <div class="eform-success" id="e-success">
+        <div class="si">✓</div>
+        <h3>¡Gracias por postularte!</h3>
+        <p>Vamos a revisar tu perfil y nos contactaremos pronto.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- FOOTER -->
