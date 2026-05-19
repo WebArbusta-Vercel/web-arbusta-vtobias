@@ -34,7 +34,7 @@ nav {
 .hero {
   min-height: 100vh; background: var(--aubergine);
   display: flex; align-items: center;
-  padding: 120px 56px 80px; position: relative; overflow: hidden;
+  padding: 200px 56px 80px; position: relative; overflow: hidden;
 }
 .hero-bg {
   position: absolute; inset: 0; z-index: 0;
